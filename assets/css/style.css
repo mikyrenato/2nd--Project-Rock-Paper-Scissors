@@ -3,3 +3,21 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.choices {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .choice {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 6rem;
+    transition: 100ms;
+  }
+  
+  .choice:hover {
+    transform: scale(1.2);
+  }
