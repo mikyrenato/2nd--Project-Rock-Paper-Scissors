@@ -21,3 +21,41 @@ html {
   .choice:hover {
     transform: scale(1.2);
   }
+
+  #choices {
+    margin-top: 150px;
+    color: #fff;
+    background-color:rgba(236, 231, 231, 0.808);
+    border-radius: 25px;
+    margin: auto;
+    width: 70%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    margin-top: 100px;
+    color: black;
+    font-size: 200%;
+  }
+
+  .scores {
+    margin-top: 1rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .resultscore {
+    margin-left: .1rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .resultchoice {
+    opacity: .5;
+  }
+  
+  .resultchoice.winner {
+    opacity: 1;
+    font-size: 1.5rem;
+  }
