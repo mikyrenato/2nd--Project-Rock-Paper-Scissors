@@ -59,3 +59,36 @@ html {
     opacity: 1;
     font-size: 1.5rem;
   }
+
+  #choices {
+    margin-top: 150px;
+    color: #fff;
+    background-color:rgba(236, 231, 231, 0.808);
+    border-radius: 25px;
+    margin: auto;
+    width: 70%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    margin-top: 100px;
+    color: black;
+    font-size: 200%;
+  }
+
+  header {
+    text-align: center;
+    font-size: 200%;
+}
+
+#score {
+    margin-top: 150px;
+    color: #fff;
+    background-color:rgba(236, 231, 231, 0.808);
+    border-radius: 25px;
+    margin: auto;
+    width: 70%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    margin-top: 120px;
+    color: black;
+    font-size: 200%;
+  }
