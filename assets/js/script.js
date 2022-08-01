@@ -24,6 +24,18 @@ choiceButtons.forEach(choiceButton => {
     choiceButton.addEventListener('click', e => {
       const selectionName = choiceButton.dataset.selection
       const selection = SELECTIONS.find(selection => selection.name === selectionName)
-      makeSelection(selection)
+      makeChoice(selection)
     })
   })
+
+  function makeChoice(selection) {
+    const computersChoice = randomSelection()
+    const yourWin = isWinner(selection, computersChoice)
+    const computerWins = isWinner(computersChoice, selection)
+  
+    addSelectionResult(computersChoice, computerWinner)
+    addSelectionResult(selection, yourWinner)
+  
+    if (yourWin) incrementScore(yourScore)
+    if (computerWins) incrementScore(computerScore)
+  }
