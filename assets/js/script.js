@@ -1,7 +1,7 @@
 const choiceButtons = document.querySelectorAll('[data-selection]')
-const LastColumn = document.querySelector('[data-final-column]')
-const computerScore = document.querySelector('[data-computer-score]')
-const yourScore = document.querySelector('[data-your-score]')
+const lastColumn = document.querySelector('[data-final-column]')
+const computerResult = document.querySelector('[data-computer-score]')
+const yourResult = document.querySelector('[data-your-score]')
 const SELECTIONS = [
   {
     name: 'rock',
@@ -20,43 +20,43 @@ const SELECTIONS = [
   }
 ]
 
-choiceButtons.forEach(choiceButton => {
-    choiceButton.addEventListener('click', e => {
-      const selectionName = choiceButton.dataset.selection
-      const selection = SELECTIONS.find(selection => selection.name === selectionName)
-      makeChoice(selection)
-    })
+choiceButtons.forEach(selectionButton => {
+  selectionButton.addEventListener('click', e => {
+    const selectionName = selectionButton.dataset.selection
+    const selection = SELECTIONS.find(selection => selection.name === selectionName)
+    makeChoice(selection)
   })
+})
 
-  function makeChoice(selection) {
-    const computersChoice = randomSelection()
-    const yourWin = isWinner(selection, computersChoice)
-    const computerWins = isWinner(computersChoice, selection)
-  
-    addSelectionsScore(computersChoice, computerWinner)
-    addSelectionsScore(selection, yourWinner)
-  
-    if (yourWin) incrementScore(yourScore)
-    if (computerWins) incrementScore(computerScore)
-  }
+function makeChoice(selection) {
+  const computerSelection = randomChoice()
+  const yourWinner = Winner(selection, computerSelection)
+  const computerWinner = Winner(computerSelection, selection)
 
-  function incrementScore(scoreSpan) {
-    scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
-  }
+  addChoiceResult(computerSelection, computerWinner)
+  addChoiceResult(selection, yourWinner)
 
-  function addSelectionsScore(selection, winner) {
-  const ss = document.createElement('ss')
-  ss.innerText = selection.emoji
-  ss.classList.add('resultselection')
-  if (winner) ss.classList.add('winner')
-  finalColumn.after(ss)
+  if (yourWinner) incrementScore(yourResult)
+  if (computerWinner) incrementScore(computerResult)
 }
 
-function isWinner(selection, opponentSelection) {
-    return selection.beats === opponentSelection.name
-  }
-  
-  function randomSelection() {
-    const randomIndex = Math.floor(Math.random() * SELECTIONS.length)
-    return SELECTIONS[randomIndex]
-  }
+function incrementScore(scoreSpan) {
+  scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
+}
+
+function addChoiceResult(selection, winner) {
+  const div = document.createElement('div')
+  div.innerText = selection.emoji
+  div.classList.add('result-selection')
+  if (winner) div.classList.add('winner')
+  lastColumn.after(div)
+}
+
+function Winner(selection, opponentSelection) {
+  return selection.beats === opponentSelection.name
+}
+
+function randomChoice() {
+  const randomIndex = Math.floor(Math.random() * SELECTIONS.length)
+  return SELECTIONS[randomIndex]
+}
