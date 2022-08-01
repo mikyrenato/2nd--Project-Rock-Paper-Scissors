@@ -33,9 +33,30 @@ choiceButtons.forEach(choiceButton => {
     const yourWin = isWinner(selection, computersChoice)
     const computerWins = isWinner(computersChoice, selection)
   
-    addSelectionResult(computersChoice, computerWinner)
-    addSelectionResult(selection, yourWinner)
+    addSelectionsScore(computersChoice, computerWinner)
+    addSelectionsScore(selection, yourWinner)
   
     if (yourWin) incrementScore(yourScore)
     if (computerWins) incrementScore(computerScore)
+  }
+
+  function incrementScore(scoreSpan) {
+    scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
+  }
+
+  function addSelectionsScore(selection, winner) {
+  const ss = document.createElement('ss')
+  ss.innerText = selection.emoji
+  ss.classList.add('resultselection')
+  if (winner) ss.classList.add('winner')
+  finalColumn.after(ss)
+}
+
+function isWinner(selection, opponentSelection) {
+    return selection.beats === opponentSelection.name
+  }
+  
+  function randomSelection() {
+    const randomIndex = Math.floor(Math.random() * SELECTIONS.length)
+    return SELECTIONS[randomIndex]
   }
