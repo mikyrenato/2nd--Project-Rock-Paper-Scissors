@@ -97,7 +97,7 @@
   }
 
   #par {
-    background-color: green;
+    background-color: rgb(216, 224, 216);
     color: white;
     text-align: center;
     border: 10px groove #0a8d40;
@@ -125,6 +125,12 @@ li, p {
     position: absolute;
   }
 
+  .start {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
   #start {
     height: 80px;
     width: 40%;
@@ -134,7 +140,6 @@ li, p {
     border-radius: 25px;
     margin-top: 30px;
     border: 5px groove #0a8d40;
-    margin-left: 450px;
   }
 
   #nickname {
@@ -146,7 +151,6 @@ li, p {
     border-radius: 25px;
     margin-top: 30px;
     border: 5px groove #0a8d40;
-    margin-left: 450px;
     text-align: center;
   }
   
