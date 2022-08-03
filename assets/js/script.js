@@ -47,7 +47,7 @@ function incrementScore(scoreSpan) {
 function addChoiceResult(selection, winner) {
   const div = document.createElement('div')
   div.innerText = selection.emoji
-  div.classList.add('result-selection')
+  div.classList.add('resultchoice')
   if (winner) div.classList.add('winner')
   lastColumn.after(div)
 }
