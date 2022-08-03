@@ -97,15 +97,13 @@
   }
 
   #par {
-    background-color: rgb(216, 224, 216);
-    color: white;
+    background-color:rgba(236, 231, 231, 0.808);
     text-align: center;
-    border: 10px groove #0a8d40;
+    border: 10px groove whitesmoke;
     margin-right: 20px;
-    background-color: #0a8d40;
     border-radius: 25px 0 25px 0;
     font-size: 100%;
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 
@@ -129,6 +127,7 @@ li, p {
     margin: auto;
     width: 50%;
     padding: 10px;
+    margin-top: 100px;
   }
 
   #start {
@@ -139,7 +138,7 @@ li, p {
     color: white;
     border-radius: 25px;
     margin-top: 30px;
-    border: 5px groove #0a8d40;
+    border: 5px groove whitesmoke;
   }
 
   #nickname {
