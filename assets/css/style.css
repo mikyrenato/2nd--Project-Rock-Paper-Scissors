@@ -124,6 +124,17 @@ li, p {
     border: 5px groove #0a8d40;
     position: absolute;
   }
+
+  #start {
+    height: 80px;
+    width: 70%;
+    font-size: 20px;
+    background-color: rgb(68, 177, 32);
+    color: white;
+    border-radius: 25px;
+    margin-top: 30px;
+    border: 5px groove #0a8d40;
+  }
   
   #reset:hover {
     transform: scale(1.05);
