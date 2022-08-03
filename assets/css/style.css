@@ -1,10 +1,15 @@
-html {
+#home {
     background: url('../images/pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+#index {
+  background: url('../images/pic2.PNG');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.choices {
+ .choices {
     display: flex;
     justify-content: center;
   }
