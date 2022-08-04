@@ -31,7 +31,37 @@
               <button id="start" type="submit">Start Game</button>    
          </form>
 
-       </div>
+    </div>
+
+       <div id="score">
+
+            <div class="scores">
+                <div>
+                    <span id="nick">You</span>
+                    <span class="resultscore" data-your-score>0</span>
+                </div>
+    
+                <div data-final-column>
+                Computer
+                <span class="resultscore" data-computer-score>0</span>
+                </div>
+    
+            </div>
+        </div>
+
+    <script>
+
+        const input = document.getElementById('nickname');
+        const start = document.getElementById('start');
+        const you = document.getElementById('nick');
+
+        function nickname() {
+        nick.innerHTML = input.value;
+        }
+
+        start.addEventListener('click', nickname);
+
+    </script>
 
 </body>
 </html>

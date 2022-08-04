@@ -21,17 +21,6 @@ const SELECTIONS = [
 ]
 
 
-const input = document.getElementById('nickname');
-const start = document.getElementById('start');
-const you = document.getElementById('nick');
-
-function nickname() {
-    nick.innerHTML = input.value;
-}
-
-start.addEventListener('click', fnickname);
-
-
 choiceButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
     const selectionName = selectionButton.dataset.selection
