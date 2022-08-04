@@ -2,6 +2,9 @@ const choiceButtons = document.querySelectorAll('[data-selection]')
 const lastColumn = document.querySelector('[data-final-column]')
 const computerResult = document.querySelector('[data-computer-score]')
 const yourResult = document.querySelector('[data-your-score]')
+const input = document.getElementById('nickname');
+const start = document.getElementById('start');
+const you = document.getElementById('nick');
 const SELECTIONS = [
   {
     name: 'rock',
@@ -61,3 +64,9 @@ function randomChoice() {
   const randomIndex = Math.floor(Math.random() * SELECTIONS.length)
   return SELECTIONS[randomIndex]
 }
+
+function nickname() {
+  nick.innerHTML = input.value;
+  }
+
+  start.addEventListener('click', nickname);
