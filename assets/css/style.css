@@ -175,3 +175,20 @@ li, p {
   header {
     font-size: 300%;
   }
+
+  @media only screen and (max-width: 500px) {
+      .choices {
+        display:inline;
+      }
+      .choice {
+        margin-left: 30%;
+      }
+
+      #start, #nickname, .reset {
+        font-size: 30%;
+      }
+
+      #nick, #op {
+        font-size: 60%;
+      }
+}
