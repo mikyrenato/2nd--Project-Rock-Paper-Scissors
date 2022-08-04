@@ -67,6 +67,7 @@ function randomChoice() {
 
 function nickname() {
   nick.innerHTML = input.value;
+  input.value = "";
   }
 
   start.addEventListener('click', nickname);
