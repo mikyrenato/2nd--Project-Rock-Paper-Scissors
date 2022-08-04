@@ -192,6 +192,11 @@ hr:after {
     padding: 0 0.25em;
 }
 
+#nick, #op {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
   @media only screen and (max-width: 500px) {
       .choices {
         display:inline;
