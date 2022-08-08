@@ -46,6 +46,7 @@ function makeChoice(selection) {
 
 function incrementScore(scoreSpan) {
   scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1
+  checkWinner();
 }
 
 function addChoiceResult(selection, winner) {
@@ -71,3 +72,18 @@ function nickname() {
   }
 
   start.addEventListener('click', nickname);
+
+  function checkWinner() {
+    let computerResult = document.querySelector('[data-computer-score]').innerHTML
+    let yourResult = document.querySelector('[data-your-score]').innerHTML
+    if (computerResult >= 5) {
+      alert("Great job, you are the winner :)!!");
+ 
+    }
+    else if (yourResult >= 5) {
+      alert(":( You lost, better luck next time");
+
+    }
+    else
+    return false
+}
