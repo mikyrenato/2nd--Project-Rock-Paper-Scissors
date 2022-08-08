@@ -69,6 +69,8 @@ function randomChoice() {
 function nickname() {
   nick.innerHTML = input.value;
   input.value = "";
+  document.getElementById("start").style.visibility = "hidden";
+  document.getElementById("nickname").style.visibility = "hidden";
   }
 
   start.addEventListener('click', nickname);
