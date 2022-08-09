@@ -222,6 +222,7 @@ hr:after {
       }
 
       #s {
-        display: inline-block;
+        display: inline;
+        margin-left: 80%;
       }
 }
