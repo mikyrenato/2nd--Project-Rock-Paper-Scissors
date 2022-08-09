@@ -28,7 +28,7 @@
   #choices {
     margin-top: 150px;
     color: #fff;
-    background-color:rgba(236, 231, 231, 0.808);
+    background-color:rgba(236, 231, 231, 0.945);
     border-radius: 25px;
     margin: auto;
     width: 70%;
@@ -71,7 +71,7 @@
 .score {
     margin-top: 150px;
     color: #fff;
-    background-color:rgba(236, 231, 231, 0.808);
+    background-color:rgba(236, 231, 231, 0.945);
     border-radius: 25px;
     margin: auto;
     width: 70%;
@@ -83,7 +83,7 @@
   }
 
   #par {
-    background-color:rgba(236, 231, 231, 0.808);
+    background-color:rgba(236, 231, 231, 0.945);
     text-align: center;
     border: 10px groove whitesmoke;
     margin-right: 20px;
