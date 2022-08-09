@@ -209,7 +209,7 @@ hr:after {
         font-size: 30%;
       }
 
-      #nick, #op {
-        font-size: 40%;
+      #nick, #op, .his {
+        font-size: 50%;
       }
 }
