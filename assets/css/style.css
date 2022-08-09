@@ -1,3 +1,7 @@
+*{
+  font-family: 'Luckiest Guy', cursive;
+}
+
 #home {
     background: url('../images/pic.jpg');
     background-repeat: no-repeat;
