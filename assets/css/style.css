@@ -201,7 +201,7 @@ hr:after {
   font-weight: bolder;
 }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
       .choices {
         display:inline;
       }
@@ -214,10 +214,14 @@ hr:after {
       }
 
       #nick, #op, .his {
-        font-size: 50%;
+        font-size: 40%;
       }
 
       h3 {
         font-size: 70%;
+      }
+
+      #s {
+        display: inline-block;
       }
 }
