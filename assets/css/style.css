@@ -212,4 +212,8 @@ hr:after {
       #nick, #op, .his {
         font-size: 50%;
       }
+
+      h3 {
+        font-size: 70%;
+      }
 }
