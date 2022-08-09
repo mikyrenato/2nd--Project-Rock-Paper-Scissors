@@ -1,5 +1,6 @@
 *{
   font-family: 'Luckiest Guy', cursive;
+  color: #0a8d40;
 }
 
 #home {
@@ -223,6 +224,12 @@ hr:after {
 
       #s {
         display: inline;
-        margin-left: 80%;
       }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    #par {
+      font-size: 150%;
+    }
 }
