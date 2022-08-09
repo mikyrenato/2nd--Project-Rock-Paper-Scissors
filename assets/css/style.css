@@ -68,7 +68,7 @@
     font-size: 200%;
 }
 
-#score {
+.score {
     margin-top: 150px;
     color: #fff;
     background-color:rgba(236, 231, 231, 0.808);

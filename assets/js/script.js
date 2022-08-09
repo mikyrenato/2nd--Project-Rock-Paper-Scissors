@@ -78,11 +78,11 @@ function nickname() {
   function checkWinner() {
     let computerResult = document.querySelector('[data-computer-score]').innerHTML
     let yourResult = document.querySelector('[data-your-score]').innerHTML
-    if (computerResult >= 5) {
+    if (computerResult >= 10) {
       alert(":( You lost, better luck next time");
       location.reload();
     }
-    else if (yourResult >= 5) {
+    else if (yourResult >= 10) {
       alert("Great job, you are the winner :) !!");
       location.reload();
     }

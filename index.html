@@ -9,6 +9,25 @@
 </head>
 <body>
 
+    
+    <div class="score">
+
+        <div class="scores">
+            <div>
+              <span id="nick">You</span>
+              <span class="resultscore" data-your-score>0</span>
+              <hr>
+            </div>
+    
+            <div>
+              <span id="op">Opponent</span>
+              <span class="resultscore" data-computer-score>0</span>
+              <hr>
+            </div>
+    
+        </div>
+    </div>
+
         <div id="choices">
             <h3>Make your choice and scroll down to check result history: </h3>
             <hr>
@@ -31,18 +50,18 @@
         
         </div>
 
-        <div id="score">
+        <div class="score">
 
             <div class="scores">
                 <div>
-                  <span id="nick">You</span>
-                  <span class="resultscore" data-your-score>0</span>
+                  <span>Your result history</span>
+                  <span class="resultscore" data-your-score></span>
                   <hr>
                 </div>
         
                 <div data-final-column>
-                  <span id="op">Opponent</span>
-                  <span class="resultscore" data-computer-score>0</span>
+                  <span>Opponent's result history</span>
+                  <span class="resultscore" data-computer-score></span>
                   <hr>
                 </div>
         
