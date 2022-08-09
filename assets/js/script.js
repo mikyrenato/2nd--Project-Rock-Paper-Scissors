@@ -5,6 +5,8 @@ const yourResult = document.querySelector('[data-your-score]')
 const input = document.getElementById('nickname');
 const start = document.getElementById('start');
 const you = document.getElementById('nick');
+const y = document.getElementById('y');
+const o = document.getElementById('o');
 const SELECTIONS = [
   {
     name: 'rock',
@@ -42,6 +44,10 @@ function makeChoice(selection) {
 
   if (yourWinner) incrementScore(yourResult)
   if (computerWinner) incrementScore(computerResult)
+
+  y.innerHTML = selection.emoji;
+  o.innerHTML = computerSelection.emoji;
+
 }
 
 function incrementScore(scoreSpan) {
