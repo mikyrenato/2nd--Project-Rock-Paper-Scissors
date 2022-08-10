@@ -92,16 +92,32 @@ After either the user or the computer gets to 10 wins there will be an alert mes
 
 ### Responsiveness Testing (Multi-Platform)
 
-I began this project with a mobile first approach, with the goal of having a website that works fluently between a minimum width of 320px (such as a small mobile device) up to 3200px wide (such as a large laptop).
+This is a fully responsive website as you can see in the image below and it's suited for all platforms:
 
+I used the Am i Responsive Website to check this.
+
+![Responsiveness check](/assets/images//responsiveness.PNG)
+
+### Lighthouse Testing
 
 I can confirm that the website passed with great scores. See report below:
 
-![Lighthouse Report](/assets/images/readme-images/lighthouse-score-ss.png)
+Mobile
+![Lighthouse Report](/assets/images/lighthouse.PNG)
+Desktop
+![Lighthouse Report](/assets/images/lighthouse2.PNG)
 
 
 ### Validation:
 
+I used the W3C CSS Validation Service to check my CSS code and it all came out without any errors:
+
+![CSS Report](/assets/images/css.PNG)
+
+I used the W3C Markup Validation Service to check my HTML code and it all came out without any errors:
+
+![HTML Report](/assets/images/homew3c.PNG)
+![HTML Report](/assets/images/indexw3c.PNG)
 
 ---
 ## Deployment
