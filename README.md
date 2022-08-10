@@ -13,58 +13,32 @@ The goal of this website, beyond testing my Javascript abilities, is to make a w
 
 ---
 ## Website across different platforms
-![Responsiveness check](/assets/images/readme-images/responsiveness.png)
-
----
-## Wireframe
-I used Balsamiq to create my wireframes for this project. I took a mobile/tablet-first approach with this project, and as such, my wireframes reflect that. 
-
-I first went about creating a wireframe for how I wanted my starting page to look, and when I was happy, I moved on to the game page sections for tablet and mobil respectively. 
-
-### Starting Page
-
-![Start page wireframe](assets/images/readme-images/start-page-wireframe.png)
-
-
-### Game Page
-
-![Game page wireframe](assets/images/readme-images/game-wireframe.png)
-
-There is a key difference from the wireframe to the final product: I moved the scoring layout around from the original. 
-I solely made this decision for an aesthetic reason. I felt it looked more pleasing to the eye. 
+![Responsiveness check](/assets/images//responsiveness.PNG)
 
 ---
 ## UX Description
 
-For this game, bright and bold colours were a must. However, I wanted to make sure that they kept the player's focus and didn't distract from the objective of the game!
-I featured the following:
+In this kind of games bright colours are a must, I used the following:
 
 Colours:
 
-- A radial gradient background featuring #fdbb2d, orange and aquamarine.
-- Start-Game and Reset buttons in Green.
-- All content boxes in Lightgreen.
-- User and Computer score labels in Lightskyblue
-- Score and Timer in #fff 
-- All fonts and borders in Black. 
+- All buttons in Green with white border and white text.
+- Nickname input box in white with green border
+- Most of the text is in green
+- Game, score and choices area are in a transparent white background with green border.
 
 Layout:
 
 - Start Page:
-  - Game Rules 
-  - Supporting Image 
-  - Input field
+  - Background picture with Rock, paper and Scissors 
+  - Paragraph with instrusctions
   - Start Button
 
 - Game Page:
-  - Title/Return to Start Page
-  - Player Choices bar
-  - Username vs Computer bar
-  - "Game Arena"
+  - Username vs opponent bar with score and last choice
+  - "Game Arena" with instructions, coice buttons, nickname input box, and three buttons(Enter nickname, Restart game, Back to instructions)
   - Win/Lose/Draw Banner following result
-  - Another Username vs Comp bar displaying match score
-  - Round score displayed beneath that
-  - Reset game button
+  -Area for choices history results
 
 
 ---
