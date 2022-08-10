@@ -1,15 +1,15 @@
-# Rock-Paper-Scissors
+# Rock-Paper-Scissors-Game
 
 ## Scope, Goals and Description
-Welcome to my Rock-Paper-Scissors game! 
+Welcome to my 2nd Project: Rock-Paper-Scissors game! 
 
 This is a player vs computer game where, following the rules of the game, the user and computer can score points up to 10, before one or the other wins that round. 
 
-This game is designed to be played by someone who wants to play a game but doesn't have the time to play something complex. Perhaps on a mobile phone when travelling on the subway/underground. It is also ideal for a younger audience This game is at a simple enough complexity that is can be played and enjoyed by anyone, as it is everyday by children everywhere. The game has many variations to it across the globe, swapping out the names of rock, paper and scissors for other words, or adding complexity by introducing other variables (Such as Rock, Paper, Scissors, Lizard, Spock!). For my game, I've opted to keep the traditional 3 variable rock, paper and scissors!
+This game is designed to be played by someone who wants to play a game but doesn't have the time to play something complex. Perhaps on a mobile phone when travelling on the subway/underground. It is also ideal for a younger audience This game is at a simple enough complexity that it can be played and enjoyed by anyone, as it is everyday by children everywhere.
 
 The goal of this website, beyond testing my Javascript abilities, is to make a well-tested and fully functioning basic game that combines functionality with clean design and colours. 
 
-[Live Link here](https://robrowno.github.io/rock-paper-scissors/)
+[Live Link here](https://mikyrenato.github.io/2nd-Project-Rock-Paper-Scissors/home.html)
 
 ---
 ## Website across different platforms
