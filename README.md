@@ -48,10 +48,8 @@ Layout:
 - HTML5 - Used to structure my website
 - CSS3 - Used to style my website
 - JS - Used to provide logic to my website
-- Github - The cloud based service for hosting repositories for over 73 million developers
+- Github - The cloud based service for hosting repositories
 - Git - Used to add, commit and push my changes to the server
-- Balsamiq - Used to plan and create my wireframes for my projects
-- Favicon.io - Used to source my favicon icons for my website
 - Google Fonts - Used to source different fonts in my css file
 
 ---
@@ -59,20 +57,16 @@ Layout:
 
 ### Start-Page
 
-An essential task for this website was to have to responsive displays that change upon clicking a button/div when the player is ready to play. 
+The Start-Page briefly describes the rules of the game of Rock, Paper, Scissors followed by the "Start Game" button.
 
-By hiding the main page through surrounding it in a div in my html file, I was able to make this start page show by default and then hide that page when the player clicks 'start'. 
-
-The Start-Page briefly describes the rules of the game of Rock, Paper, Scissors and tells the user how the scoring system works. An image provides visual feedback to the user as well to help cement the rules in their mind. When they feel they understand the rules of the game, then can enter a name/username and click 'start'. If they feel they need to go back to the start page to check over the rules or change their username, they can do so by clicking the title on the game page.
-
-![Start-Page](/assets/images/readme-images/startpage-ss.png)
+![Start-Page](/assets/images/home.PNG)
 
 ### Game-Page
 
-Once the player has clicked start, the game page will appear. This is done by hiding the start page div in Javascript and revealing the main page div.
-This is the full page on mobile: 
+Once the player has clicked start, the game page will appear. Here you can enter your nickname(optional) which will hide using javascript the input box and the submit button until a new game is started.
+![Main-Page](/assets/images/game.PNG)
+![Main-Page](/assets/images/game2.PNG)
 
-![Main-Page](/assets/images/readme-images/gamepage-ss.png)
 
 ### Choices Bar
 
