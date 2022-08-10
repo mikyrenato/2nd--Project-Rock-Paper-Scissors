@@ -151,12 +151,13 @@ How to make a local clone repository:
 ---
 ## Credits
 
-- Most importantly, this tutorial helped me understand how javascript works and helped me buid the main structure of the project: [Web Dev Simplified](https://www.youtube.com/watch?v=1yS-JV4fWqY&list=PLFIUQuoVboS-nnEsyVYuwS0S1-tQJRwc8&index=4&t=516s)
+- Most importantly, this tutorial helped me understand how javascript works and helped me buid the main structure of the project(codes from this tutorial have been used for my HTML, CSS and javascript project): [Web Dev Simplified](https://www.youtube.com/watch?v=1yS-JV4fWqY&list=PLFIUQuoVboS-nnEsyVYuwS0S1-tQJRwc8&index=4&t=516s)
 - This tutorial helped me understand how to Use JavaScript to Get Value from a Textbox and Display on the Page: [Six Minutes. Smarter.](https://www.youtube.com/watch?v=aEj0Wu33hJM&t=344s)
 - Another useful tutorial which I watched is the following one, I haven't used any of the codes from here but it made me understand better how javascript works: [freeCodeCamp.org
 ](https://www.youtube.com/watch?v=jaVNP3nIAv0&list=PLFIUQuoVboS-nnEsyVYuwS0S1-tQJRwc8&index=5&t=4119s)
 - Fonts imported from: [Google Fonts](https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap)
 - Learned how to make div dissapear: [stackoverflow]([https://cssgradient.io/](https://stackoverflow.com/questions/25209834/trying-to-make-a-div-disappear-with-javascript))
+- This helped me improve my CSS: [css-tricks](https://css-tricks.com/examples/hrs/)
 - Responsiveness check from: [Am I Responsive?](http://ami.responsivedesign.is/)
 - W3 Schools inspired my modal design: [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
 
