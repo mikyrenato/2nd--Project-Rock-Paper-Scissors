@@ -16,21 +16,6 @@ The goal of this website, beyond testing my Javascript abilities, is to make a w
 ![Responsiveness check](/assets/images/readme-images/responsiveness.png)
 
 ---
-## Table of Contents
-1. [Wireframe](#wireframe)
-2. [UX Description](#ux-description)
-3. [Technologies used](#technologies-used)
-4. [Website Features](#website-features)
-5. [Features to implement](#other-features-to-implement)
-6. [Testing and Validation](#testing-and-validation)
-7. [Bugs and Issues](#bugs-and-issues)
-8. [Peer Reviews](#peer-reviews)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Final Thoughts](#final-thoughts-for-pp2)
-
-
----
 ## Wireframe
 I used Balsamiq to create my wireframes for this project. I took a mobile/tablet-first approach with this project, and as such, my wireframes reflect that. 
 
