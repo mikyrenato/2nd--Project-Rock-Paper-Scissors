@@ -155,7 +155,7 @@ How to make a local clone repository:
 - This tutorial helped me understand how to Use JavaScript to Get Value from a Textbox and Display on the Page: [Six Minutes. Smarter.](https://www.youtube.com/watch?v=aEj0Wu33hJM&t=344s)
 - Another useful tutorial which I watched is the following one, I haven't used any of the codes from here but it made me understand better how javascript works: [freeCodeCamp.org
 ](https://www.youtube.com/watch?v=jaVNP3nIAv0&list=PLFIUQuoVboS-nnEsyVYuwS0S1-tQJRwc8&index=5&t=4119s)
-- Fonts imported from: [Google Fonts]([https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap](https://fonts.google.com/betterspecimen/Luckiest+Guy?query=luckiest+guy)
+- Fonts imported from: [Google Fonts](https://fonts.google.com/betterspecimen/Luckiest+Guy?query=luckiest+guy)
 - Learned how to make div dissapear: [stackoverflow](https://stackoverflow.com/questions/25209834/trying-to-make-a-div-disappear-with-javascript)
 - This helped me improve my CSS: [css-tricks](https://css-tricks.com/examples/hrs/)
 - Responsiveness check from: [Am I Responsive?](http://ami.responsivedesign.is/)
