@@ -74,7 +74,7 @@ Here you can enter your nickname(optional) which will hide using javascript the 
 
 ### About the Game Features
 
-The game features a choices bar with 3 options to select. Rock (Fist emoji 🤜), Paper (Open hand emoji ✋) and Scissors (Peace sign emoji ✌️). When ever you click a choice, it will appear on both top and button followed bt hte computer's random choice. 
+The game features a choices bar with 3 options to select. Rock (Fist emoji 🤜), Paper (Open hand emoji ✋) and Scissors (Peace sign emoji ✌️). When ever you click a choice, it will appear on both top and button followed bt the computer's random choice. 
 
 ![Choices](/assets/images/game3.PNG)
 
