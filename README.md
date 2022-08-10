@@ -151,19 +151,18 @@ How to make a local clone repository:
 ---
 ## Credits
 
-- Fonts imported from: [Google Fonts](https://fonts.google.com/specimen/Varela+Round?preview.text=Rock%20Paper%20Scissors!&preview.text_type=custom)
-- Favicons imported from: [Favicon.io](https://favicon.io/emoji-favicons/oncoming-fist)
-- Learned how to make colour gradient backgrounds on: [cssgradient.io](https://cssgradient.io/)
-- Image for Rock, Paper, Scissors rules came from here: [RPS Rules image](https://andygrunwald.com/blog/playing-rockpaperscissors-with-500-people/)
+- Most importantly, this tutorial helped me understand how javascript works and helped me buid the main structure of the project: [Web Dev Simplified](https://www.youtube.com/watch?v=1yS-JV4fWqY&list=PLFIUQuoVboS-nnEsyVYuwS0S1-tQJRwc8&index=4&t=516s)
+- This tutorial helped me understand how to Use JavaScript to Get Value from a Textbox and Display on the Page: [Six Minutes. Smarter.](https://www.youtube.com/watch?v=aEj0Wu33hJM&t=344s)
+- Another useful tutorial which I watched is the following one, I haven't used any of the codes from here but it made me understand better how javascript works: [freeCodeCamp.org
+](https://www.youtube.com/watch?v=jaVNP3nIAv0&list=PLFIUQuoVboS-nnEsyVYuwS0S1-tQJRwc8&index=5&t=4119s)
+- Fonts imported from: [Google Fonts](https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap)
+- Learned how to make div dissapear: [stackoverflow]([https://cssgradient.io/](https://stackoverflow.com/questions/25209834/trying-to-make-a-div-disappear-with-javascript))
 - Responsiveness check from: [Am I Responsive?](http://ami.responsivedesign.is/)
 - W3 Schools inspired my modal design: [W3 Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
 
 
 ---
-## Final Thoughts for PP2 
+## Final Thoughts
 
-This project really challenged my understanding of Javascript and I certainly learned a lot through doing this project and from getting help from peers and mentors across the board. The project has certainly inspired me to continue developing my JS skills further and I expect I will do some side-projects to accomplish this. 
+This project was a real challange for me as this was the first time I used javascript. At some point I started to believe that this might not be something for me, I am happy I didn't give up and continue to do reasearch and learn and finish the project.
 
----
-
-[Go Back To The Top](#rock-paper-scissors)
