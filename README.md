@@ -63,78 +63,28 @@ The Start-Page briefly describes the rules of the game of Rock, Paper, Scissors 
 
 ### Game-Page
 
-Once the player has clicked start, the game page will appear. Here you can enter your nickname(optional) which will hide using javascript the input box and the submit button until a new game is started.
+Once the player has clicked start, the game page will appear.
+
 ![Main-Page](/assets/images/game.PNG)
+
+Here you can enter your nickname(optional) which will hide using javascript the input box and the submit button until a new game is started.
+
 ![Main-Page](/assets/images/game2.PNG)
 
 
-### Choices Bar
+### About the Game Features
 
-The game features a choices bar with 3 options to select. Rock (Fist emoji 🤜), Paper (Open hand emoji ✋) and Scissors (Peace sign emoji ✌️). There is an event listener on each choice that will listen for a click and replicate in the arena section. 
-I designed this to be as simple and intuitive as possible, so that the player can clearly see where each choice is in seperate boxes and has a clear view of where each option is. 
-Above the choices bar is the title, which when clicked on, takes the user back to the start page. There is a reminder of this on the start page as well. 
+The game features a choices bar with 3 options to select. Rock (Fist emoji 🤜), Paper (Open hand emoji ✋) and Scissors (Peace sign emoji ✌️). When ever you click a choice, it will appear on both top and button followed bt hte computer's random choice. 
 
-![Choices](/assets/images/readme-images/choices-ss.png)
+![Choices](/assets/images/game3.PNG)
 
-### Game Arena
+On the botton, not only that it will show last choice, but it will also keep track of previous choices.
 
-The arena is where the users choice and the random computer generated response will show. The user choice will show on the left and the computer choice on the right. Hence, the player name always shows on the left. The layout is designed so that it's clear to the use that the left side is for them, and the right side is for the computer. 
+![Choices](/assets/images/game4.PNG)
 
-### Before choice:
-![Before-Choice](/assets/images/readme-images/game-arena-ss.png)
+After either the user or the computer gets to 10 wins there will be an alert message poping up saying who the winner is.
 
-### After Choice:
-![After-Choice](/assets/images/readme-images/game-arena-result-ss.png)
-
-### Banner displayed when player wins:
-![You Win!](/assets/images/readme-images/banner-win-ss.png)
-
-### Banner displayed when player loses:
-![You Lose!](/assets/images/readme-images/banner-lose-ss.png)
-
-### Banner displayed when player draws:
-![Draw](/assets/images/readme-images/banner-draw-ss.png)
-
-### Score Tally Section: 
-This section displays the user and computer in a bar with the match score in between, and the round score below that. The match score will increment as the game goes on until one of the players reaches 10. At which point, the round tally will go up by one and reset the match scores back to 0 to play another round. 
-
-At the very bottom of the page is a green reset div/button, that has an event listener that when clicked on, will reset all the scores (match and round) to 0 to start the game over again from the beginning. It's styled the same way as the start button, giving a clear instruction to the player of what the button does.
-
-For aesthetic and focal reasons, I put the match score between the player and user names ands the round score below. It takes inspiration from live tennis matches, by keeping the current score constantly at the 'front' or top and the rounds below. It assists in better keeping track of the score.
-
-![Score Section](/assets/images/readme-images/scores-reset-ss.png)
-
-
-### Round-Over Modal:
-This is the modal that displays when a round is won by either the player or the computer. Depending on which player wins the round, a different message will display. I've kept this message as simple as possible, so the player can quickly make a decision on whether they want to play another round or not. A hidden div makes it so the user cannot click on any of the game choices whilst the modal is up, to encourage a decision. 
-
-### Round-Win modal:
-![Round-Win Modal](/assets/images/readme-images/win-modal.png)
-
-### Round-Lose modal:
-![Round-Lose Modal](/assets/images/readme-images/lose-modal.png)
-
-### Favicon:
-This favicon of a fist emoji was chosen as it best suits the theme of the website and also allows users to easily identify the wesbsite if they have mulitple tabs open.
-![Favicon](/assets/images/readme-images/favicon-ss.png)
-
-### Error 404 message:
-
-I made a very basic custom error 404 page that will direct the user back to the main page. It isn't complicated and is kept very simple to simply guide the user back to the right page. 
-
-![Error 404!](/assets/images/readme-images/error404-ss.png)
-
----
-## Other features to implement
-
-Given more time to invest in the project, I would likely aim to implement the following features: 
-
-- Either a countdown or count-up timer. Depending on which, there would either be a limited amount of time in which you have to win as many matches and rounds as you can, or in the case of counting up, the timer would serve just to show the user how long they've been playing.
-
-- An extra pair of choices to replicate something akin to rock, paper, scissors, lizard, spock. This would add an extra layer of complexity to the game, and would be selectable as an option in-game, so the player could jump between 3 and 5 option versions of the game as they so desire.
-
-- Some basic animation to the emojis to add some nice visual effects to the project. Perhaps an emoji can increase in size slightly for the winning player and decrease in size slightly for the losing player. 
-
+![Choices](/assets/images/alert.PNG)
 
 ---
 
