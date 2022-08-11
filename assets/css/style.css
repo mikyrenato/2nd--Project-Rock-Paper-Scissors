@@ -202,14 +202,48 @@ hr:after {
   font-weight: bolder;
 }
 
+#start, .nickname, .reset, #nickname {
+  margin: 0 auto;
+  display: block;
+}
+
+.reset {
+  width: 50%;
+}
+
+@media only screen and (min-width: 1000px) {
+
+  #par {
+    font-size: 150%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .his {
+    font-size: 50%;
+  }
+}
+
   @media only screen and (max-width: 600px) {
       .choice {
         font-size: 200%;
         margin: 0;
       }
 
-      #start, #nickname, .reset {
-        font-size: 25%;
+      #start, .nickname, .reset, #nickname {
+        font-size: 40%;
+        width: 200px;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+      }
+
+      #nickname, #start {
+        font-size: 100%;
+      }
+
+      #nickname {
+        width: 95%;
       }
 
       #nick, #op, .his {
@@ -223,11 +257,8 @@ hr:after {
       #s {
         display: inline;
       }
-}
 
-@media only screen and (min-width: 1000px) {
-
-    #par {
-      font-size: 150%;
-    }
+      .his {
+        font-size: 30%;
+      }
 }
