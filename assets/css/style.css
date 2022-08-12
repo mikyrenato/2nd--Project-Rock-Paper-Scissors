@@ -1,3 +1,5 @@
+/* Apply google fonts to the project */
+
 *{
   font-family: 'Luckiest Guy', cursive;
   color: #0a8d40;
@@ -211,6 +213,9 @@ hr:after {
 .reset {
   width: 50%;
 }
+
+
+/* This is where I apply different setting for multiple screen sizes to make the project responsive no matter where it is used */
 
 @media only screen and (min-width: 1000px) {
 
