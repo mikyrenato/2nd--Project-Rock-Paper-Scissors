@@ -1,3 +1,4 @@
+// Caching the DOM by declaring all variables
 const choiceButtons = document.querySelectorAll('[data-selection]');
 const lastColumn = document.querySelector('[data-final-column]');
 const computerResult = document.querySelector('[data-computer-score]');
@@ -25,7 +26,7 @@ const SELECTIONS = [
   }
 ];
 
-
+// Caching the DOM by declaring all variables
 choiceButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
     const selectionName = selectionButton.dataset.selection;
@@ -34,6 +35,7 @@ choiceButtons.forEach(selectionButton => {
   });
 });
 
+// Caching the DOM by declaring all variables
 function makeChoice(selection) {
   const computerSelection = randomChoice();
   const yourWinner = Winner(selection, computerSelection);
@@ -50,11 +52,13 @@ function makeChoice(selection) {
 
 }
 
+// Caching the DOM by declaring all variables
 function incrementScore(scoreSpan) {
   scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1;
   checkWinner();
 }
 
+// Caching the DOM by declaring all variables
 function addChoiceResult(selection, winner) {
   const div = document.createElement('div');
   div.innerText = selection.emoji;
@@ -63,15 +67,18 @@ function addChoiceResult(selection, winner) {
   lastColumn.after(div);
 }
 
+// Caching the DOM by declaring all variables
 function Winner(selection, opponentSelection) {
   return selection.beats === opponentSelection.name;
 }
 
+// Caching the DOM by declaring all variables
 function randomChoice() {
   const randomIndex = Math.floor(Math.random() * SELECTIONS.length);
   return SELECTIONS[randomIndex];
 }
 
+// Caching the DOM by declaring all variables
 function nickname() {
   you.innerHTML = input.value;
   input.value = "";
@@ -81,17 +88,18 @@ function nickname() {
 
   start.addEventListener('click', nickname);
 
-  function checkWinner() {
-    let computerResult = document.querySelector('[data-computer-score]').innerHTML;
-    let yourResult = document.querySelector('[data-your-score]').innerHTML;
-    if (computerResult >= 10) {
-      alert(":( You lost, better luck next time.");
-      location.reload();
-    }
-    else if (yourResult >= 10) {
-      alert("Great job, you are the winner :) !!");
-      location.reload();
-    }
-    else
-    return false;
+  // Caching the DOM by declaring all variables
+function checkWinner() {
+  let computerResult = document.querySelector('[data-computer-score]').innerHTML;
+  let yourResult = document.querySelector('[data-your-score]').innerHTML;
+  if (computerResult >= 10) {
+    alert(":( You lost, better luck next time.");
+    location.reload();
+  }
+  else if (yourResult >= 10) {
+    alert("Great job, you are the winner :) !!");
+    location.reload();
+  }
+  else
+  return false;
 }
