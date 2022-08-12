@@ -26,7 +26,7 @@ const SELECTIONS = [
   }
 ];
 
-// Caching the DOM by declaring all variables
+// Function to give us the choice name on click plus making a choice by using the makeChoice function
 choiceButtons.forEach(selectionButton => {
   selectionButton.addEventListener('click', e => {
     const selectionName = selectionButton.dataset.selection;
@@ -35,7 +35,7 @@ choiceButtons.forEach(selectionButton => {
   });
 });
 
-// Caching the DOM by declaring all variables
+// Making the choice function
 function makeChoice(selection) {
   const computerSelection = randomChoice();
   const yourWinner = Winner(selection, computerSelection);
@@ -52,13 +52,13 @@ function makeChoice(selection) {
 
 }
 
-// Caching the DOM by declaring all variables
+// Function to increase the score of the winner
 function incrementScore(scoreSpan) {
   scoreSpan.innerText = parseInt(scoreSpan.innerText) + 1;
   checkWinner();
 }
 
-// Caching the DOM by declaring all variables
+// Adding the results history on the bottom of the page
 function addChoiceResult(selection, winner) {
   const div = document.createElement('div');
   div.innerText = selection.emoji;
@@ -67,18 +67,18 @@ function addChoiceResult(selection, winner) {
   lastColumn.after(div);
 }
 
-// Caching the DOM by declaring all variables
+// Function to help determining who the winner is
 function Winner(selection, opponentSelection) {
   return selection.beats === opponentSelection.name;
 }
 
-// Caching the DOM by declaring all variables
+// This function will help to make a random computer choice
 function randomChoice() {
   const randomIndex = Math.floor(Math.random() * SELECTIONS.length);
   return SELECTIONS[randomIndex];
 }
 
-// Caching the DOM by declaring all variables
+// This function is to set up the nickname
 function nickname() {
   you.innerHTML = input.value;
   input.value = "";
@@ -88,7 +88,7 @@ function nickname() {
 
   start.addEventListener('click', nickname);
 
-  // Caching the DOM by declaring all variables
+  // This function is to alert the user if they won or lost the game
 function checkWinner() {
   let computerResult = document.querySelector('[data-computer-score]').innerHTML;
   let yourResult = document.querySelector('[data-your-score]').innerHTML;
