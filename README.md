@@ -96,15 +96,15 @@ On my mentor's advise I tested my js code on jshint.com. I was convinced that I 
 
 Missing semicolons:
 
-(/assets/images//jstest.PNG)
+![JS Test](/assets/images//jstest.PNG)
 
 One undefined variable and one unused varabile, this was due to using the id instead of the variable name in the nickname function (nick.innerHTML = input.value  -> should have used you.innerHTML = input.value):
 
-(/assets/images//jstest2.PNG)
+![JS Test](/assets/images//jstest2.PNG)
 
 All errors have been fixed shortly:
 
-(/assets/images//jstest3.PNG)
+![JS Test](/assets/images//jstest3.PNG)
 
 ### Responsiveness Testing (Multi-Platform)
 
