@@ -100,11 +100,11 @@ Missing semicolons:
 
 One undefined variable and one unused varabile, this was due to using the id instead of the variable name in the nickname function (nick.innerHTML = input.value  -> should have used you.innerHTML = input.value):
 
-![JS Test2](/assets/images//jstest2.PNG)
+![JS Test2](/assets/images//js2.PNG)
 
 All errors have been fixed shortly:
 
-![JS Test3](/assets/images//jstest3.PNG)
+![JS Test3](/assets/images//js3.PNG)
 
 ### Responsiveness Testing (Multi-Platform)
 
