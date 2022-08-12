@@ -90,6 +90,22 @@ After either the user or the computer gets to 10 wins there will be an alert mes
 
 ## Testing and Validation
 
+### javaScript Testing
+
+On my mentor's advise I tested my js code on jshint.com. I was convinced that I will get no error as my game was running as it should, unfortunatelly there were quite a few unexpected errors:
+
+Missing semicolons:
+
+(/assets/images//jstest.PNG)
+
+One undefined variable and one unused varabile, this was due to using the id instead of the variable name in the nickname function (nick.innerHTML = input.value  -> should have used you.innerHTML = input.value):
+
+(/assets/images//jstest2.PNG)
+
+All errors have been fixed shortly:
+
+(/assets/images//jstest3.PNG)
+
 ### Responsiveness Testing (Multi-Platform)
 
 This is a fully responsive website as you can see in the image below and it's suited for all platforms:
