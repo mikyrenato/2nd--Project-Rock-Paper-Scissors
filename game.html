@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" id="index">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <!-- Tope section with current selection and total score -->
+    <div class="score">
+      <div class="scores" id="s">
+        <div>
+          <span id="y"></span>
+          <span id="nick">You</span>
+          <span class="resultscore" data-your-score>0</span>
+          <hr>
+        </div>
+        <div>
+          <span id="o"></span>
+          <span id="op">Opponent</span>
+          <span class="resultscore" data-computer-score>0</span>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <!-- Section with instructions, choices and buttons(nickname input, nickname submit, restart game, back to instructions) -->
+    <div id="choices">
+      <h3>Make your choice and scroll down to check result history: </h3>
+      <hr>
+      <div class="choices">
+        <button class="choice" data-selection="rock">✊</button>
+        <button class="choice" data-selection="paper">✋</button>
+        <button class="choice" data-selection="scissors">✌</button>
+      </div>
+      <div class="nickname">
+        <input type="text" id="nickname" placeholder="Nickname" required>
+        <button id="start" type="submit">Enter Nickname</button>
+      </div>
+      <form action="game.html" method="get">
+        <button class="reset" type="submit">Restart Game</button>   
+      </form>
+      <form action="index.html" method="get">
+        <button class="reset" type="submit">Back to Instructions</button>      
+      </form>
+    </div>
+    <!-- Section with history of results-->
+    <div class="score">
+      <div class="scores">
+        <div>
+          <span class="his">Your results</span>
+          <span class="resultscore" data-your-score></span>
+          <hr>
+        </div>
+        <div data-final-column>
+          <span class="his">Opponent's results</span>
+          <span class="resultscore" data-computer-score></span>
+          <hr>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

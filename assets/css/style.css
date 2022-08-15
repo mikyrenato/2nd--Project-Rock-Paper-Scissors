@@ -5,18 +5,18 @@
   color: #0a8d40;
 }
 
-/* Add background image to the home page */
+/* Add background image to the index page */
 #home {
     background: url('../images/pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* Add background image to the index page */
+/* Add background image to the game page */
 #index {
   background: url('../images/pic2.PNG');
 }
 
-/* Style the elements from the index page */
+/* Style the elements from the game page */
  .choices {
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@
     font-size: 200%;
   }
 
-/* Style the header and paragraph from the home page */
+/* Style the header and paragraph from the index page */
   header {
     text-align: center;
     font-size: 200%;
@@ -109,7 +109,7 @@ li, p {
   text-align: left;
 }
 
-/* Style the buttons from the home and index page */
+/* Style the buttons from the game and index page */
 .reset {
     height: 80px;
     width: 33%;
@@ -206,7 +206,7 @@ hr:after {
     padding: 0 0.25em;
 }
 
-/* Style span elements from index page */
+/* Style span elements from game page */
 #nick, #op {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
