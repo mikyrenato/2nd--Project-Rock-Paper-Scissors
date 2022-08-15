@@ -5,7 +5,7 @@ Welcome to my 2nd Project: Rock-Paper-Scissors game!
 
 This is a player vs computer game where, following the rules of the game, the user and computer can score points up to 10, before one or the other wins that round. 
 
-This game is designed to be played by someone who wants to play a game but doesn't have the time to play something complex. Perhaps on a mobile phone when travelling. It is also ideal for a younger audience This game is at a simple enough complexity that it can be played and enjoyed by anyone, as it is everyday by children everywhere.
+This game is designed to be played by someone who wants to play a game but doesn't have the time to play something complex. Perhaps on a mobile phone when travelling. It is also ideal for a younger audience This game is at a simple enough complexity that it can be played and enjoyed by anyone, as it is every day by children everywhere.
 
 The goal of this website, beyond testing my Javascript abilities, is to make a well-tested and fully functioning basic game that combines functionality with clean design and colours. 
 
@@ -36,7 +36,7 @@ Layout:
 
 - Game Page:
   - Username vs opponent bar with score and last choice
-  - "Game Arena" with instructions, coice buttons, nickname input box, and three buttons(Enter nickname, Restart game, Back to instructions)
+  - "Game Arena" with instructions, choice buttons, nickname input box, and three buttons(Enter nickname, Restart game, Back to instructions)
   - Win/Lose/Draw Banner following result
   -Area for choices history results
 
@@ -74,15 +74,15 @@ Here you can enter your nickname(optional) which will hide using javascript the 
 
 ### About the Game Features
 
-The game features a choices bar with 3 options to select. Rock (Fist emoji 🤜), Paper (Open hand emoji ✋) and Scissors (Peace sign emoji ✌️). When ever you click a choice, it will appear on both top and button followed bt the computer's random choice. 
+The game features a choices bar with 3 options to select. Rock (Fist emoji 🤜), Paper (Open hand emoji ✋) and Scissors (Peace sign emoji ✌️). Whenever you click a choice, it will appear on both top and button followed by the computer's random choice. 
 
 ![Choices](/assets/images/game3.PNG)
 
-On the botton, not only that it will show last choice, but it will also keep track of previous choices.
+On the bottom, not only that it will show last choice, but it will also keep track of previous choices.
 
 ![Choices](/assets/images/game4.PNG)
 
-After either the user or the computer gets to 10 wins there will be an alert message poping up saying who the winner is.
+After either the user or the computer gets to 10 wins there will be an alert message popping up saying who the winner is.
 
 ![Choices](/assets/images/alert.PNG)
 
@@ -92,13 +92,13 @@ After either the user or the computer gets to 10 wins there will be an alert mes
 
 ### javaScript Testing
 
-On my mentor's advise I tested my js code on jshint.com. I was convinced that I will get no error as my game was running as it should, unfortunatelly there were quite a few unexpected errors:
+On my mentor's advice I tested my javaScript code on jshint.com. I was convinced that I will get no error as my game was running as it should, unfortunately there were quite a few unexpected errors:
 
 Missing semicolons:
 
 ![JS Test](/assets/images//jstest.PNG)
 
-One undefined variable and one unused varabile, this was due to using the id instead of the variable name in the nickname function (nick.innerHTML = input.value  -> should have used you.innerHTML = input.value):
+One undefined variable and one unused variable, this was due to using the id instead of the variable name in the nickname function (nick.innerHTML = input.value  -> should have used you.innerHTML = input.value):
 
 ![JS Test2](/assets/images//js2.PNG)
 
@@ -141,7 +141,7 @@ Below are the steps to take to deploy this website:
 
 Rock Paper Scissors! is deployed on Github (the cloud-based service that is hosting my repository). Follow the steps below to deploy a Github Repository through GitHub pages:
 
-1. Select the repository that you want to deploy, and select the settings link at the top right of the menu bar (A 'cog' icon will show near it).
+1. Select the repository that you want to deploy and select the settings link at the top right of the menu bar (A 'cog' icon will show near it).
 2. Select the pages section on the vertical navigation bar on the left.
 3. On the Github pages tab, scroll to the Source area and change the "None" branch tab to "Main", followed by changing the folder selector to "Root".
 4. Finally, save this setting and refresh the site until you are presented with the following message in green: "Your site is published at (Your Github web address)"
