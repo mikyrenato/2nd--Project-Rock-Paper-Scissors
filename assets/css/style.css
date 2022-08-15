@@ -5,15 +5,18 @@
   color: #0a8d40;
 }
 
+/* Add background image to the home page */
 #home {
     background: url('../images/pic.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Add background image to the index page */
 #index {
   background: url('../images/pic2.PNG');
 }
 
+/* Style the elements from the index page */
  .choices {
     display: flex;
     justify-content: center;
@@ -71,12 +74,7 @@
     font-size: 1.5rem;
   }
 
-  header {
-    text-align: center;
-    font-size: 200%;
-}
-
-.score {
+  .score {
     margin-top: 150px;
     color: #fff;
     background-color:rgba(236, 231, 231, 0.945);
@@ -89,6 +87,12 @@
     color: black;
     font-size: 200%;
   }
+
+/* Style the header and paragraph from the home page */
+  header {
+    text-align: center;
+    font-size: 200%;
+}
 
   #par {
     background-color:rgba(236, 231, 231, 0.945);
@@ -105,6 +109,7 @@ li, p {
   text-align: left;
 }
 
+/* Style the buttons from the home and index page */
 .reset {
     height: 80px;
     width: 33%;
@@ -176,6 +181,7 @@ li, p {
     transform: scale(1.05);
   }
   
+  /* Style the header, h3 and hr from my html pages */
   h3 {
     text-align: center;
   }
@@ -200,11 +206,13 @@ hr:after {
     padding: 0 0.25em;
 }
 
+/* Style span elements from index page */
 #nick, #op {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
 }
 
+/* Style buttons from my html pages */
 #start, .nickname, .reset, #nickname {
   margin: 0 auto;
   display: block;
