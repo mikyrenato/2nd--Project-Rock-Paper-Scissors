@@ -176,6 +176,7 @@ How to make a local clone repository:
 - This helped me improve my CSS: [css-tricks](https://css-tricks.com/examples/hrs/)
 - Responsiveness check from: [Am I Responsive?](http://ami.responsivedesign.is/)
 - [Rock Paper Scissors](https://github.com/Robrowno/rock-paper-scissors)'s readme file was used to create my own readme file and even though I haven't used any direct codes from here, it inspired me to add extra functionalities to my own project.
+- This helped me format my html code: [html-formatting](https://www.freeformatter.com/html-formatter.html)
 
 
 ---
