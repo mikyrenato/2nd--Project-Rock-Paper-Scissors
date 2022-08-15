@@ -31,7 +31,7 @@ Layout:
 
 - Start Page:
   - Background picture with Rock, paper and Scissors 
-  - Paragraph with instrusctions
+  - Paragraph with instructions
   - Start Button
 
 - Game Page:
